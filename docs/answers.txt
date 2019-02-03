@@ -1,3 +1,4 @@
+Question 3E:
 (a) 
 Username for 'https://github.com': coltonbraddy@gmail.com
 Password for 'https://coltonbraddy@gmail.com@github.com':
@@ -51,3 +52,13 @@ The dictator workflow would be beneficial for larger projects as the dictator
 does not have to sort through all submitted commits themselves, relying on 
 lieutenants to assist. This provides a clearer view on what to merge with the
 main branch.
+
+Question 5:
+The RoleGame prototype is using polymorphism with the WeaponFactory class, as
+the return type is "Weapon" but children of the Weapon class are returned
+instead. Main.cpp also exhibits polymorphism as it uses Weapon pointers to
+point to its children, in both the main function and simulateWeapon.
+The prototype also uses encapsulation in Weapon.h and WeaponFactory.h, as 
+Weapon.h uses protected member data, only allowing its children and itself to
+access it, and WeaponFactory.h uses private member data, only allowing itself
+to access it.
