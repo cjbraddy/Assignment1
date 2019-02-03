@@ -4,6 +4,9 @@
 
 #include <string>
 #include "Weapon.h"
+#include <cstdlib>
+#include <cmath>
+#include <ctime>
 
 #ifndef MAGICSTICK_H
 #define MAGICSTICK_H

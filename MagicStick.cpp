@@ -2,10 +2,11 @@
 //Author: Colton <cjb17e@my.fsu.edu>
 
 #include "MagicStick.h"
-#include <cstdlib>
 
 double MagicStick::hit(double armor) 
 {
+    srand(time(0));
+    
     double damage;
     int random = rand() % 100 + 1;
     
