@@ -1,0 +1,53 @@
+(a) 
+Username for 'https://github.com': coltonbraddy@gmail.com
+Password for 'https://coltonbraddy@gmail.com@github.com':
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (7/7), 849 bytes | 283.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 1 local object.
+To https://github.com/cjbraddy/Assignment1.git
+   3d373c9..aab13e2  master -> master
+   
+(b)
+git rev-list --all --count
+
+(c)
+git log --follow .gitignore
+
+(d)
+Branches are used so that development can occur without fear of the program
+being corrupted by a change.
+They are also used so that there can be better organization regarding separation
+of development for different features.
+
+(e)
+Git log shows the list of all commits for the remote repository, while git 
+status relates your local repository's changes to the remote, showing the
+working tree status.
+
+(f)
+git log --follow Weapon.h
+
+(g)
+git log --grep=file
+
+(h)
+(I) Inheritance is when a class "inherits" functions, variables, and properties
+from a parent class.
+(II) Polymorphism is when one can use the parent's reference variable to refer
+to a child object.
+(III) Encapsulation is when one protects an object's data from being accessed 
+unless through approved function calls.
+
+(i)
+The main difference between the integration manager workflow and the dictator
+workflow is that in the dictator workflow, the developer's work is checked
+by at least two other people before being committed to the central repository.
+
+(j)
+The dictator workflow would be beneficial for larger projects as the dictator 
+does not have to sort through all submitted commits themselves, relying on 
+lieutenants to assist. This provides a clearer view on what to merge with the
+main branch.
