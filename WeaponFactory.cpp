@@ -9,6 +9,9 @@
 #include "WeaponFactory.h"
 #include "CommonSword.h" 
 #include "CommonSpear.h"
+#include "SimpleHammer.h"
+#include "CrazyRandomSword.h"
+#include "MagicStick.h"
 
 WeaponFactory* WeaponFactory::instance = NULL;
 
@@ -28,5 +31,14 @@ Weapon * WeaponFactory::getWeapon(std::string name) {
         return new CommonSpear();
     }
 
+    // Colton Braddy's code begins here
+    
+    if (name.compare("hammer") == 0)
+		return new SimpleHammer();
+	if (name.compare("random") == 0)
+		return new CrazyRandomSword();
+    if (name.compare("stick") == 0)
+        return new MagicStick();
+    
     throw "Invalid weapon";
 }
